@@ -15,18 +15,18 @@
 
 include device/motorola/msm8937-common/BoardConfigCommon.mk
 
--include vendor/motorola/perry/BoardConfigVendor.mk
+-include vendor/motorola/montana/BoardConfigVendor.mk
 
-DEVICE_PATH := device/motorola/perry
+DEVICE_PATH := device/motorola/montana
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := perry,perry_retail
+TARGET_OTA_ASSERT_DEVICE := montana,montana_retail
 
-TARGET_KERNEL_CONFIG := perry_defconfig
+TARGET_KERNEL_CONFIG := montana_defconfig
 
 # Partitions
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3623878656    #  3538944 * 1024 mmcblk0p53
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 10768858112 # 10516463 * 1024 mmcblk0p54
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3455451136    
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 26401026048
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
