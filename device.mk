@@ -34,8 +34,8 @@ PRODUCT_PACKAGES += \
     init.target.rc
 
 # Screen density
-PRODUCT_AAPT_PREF_CONFIG := xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Thermal
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine-perry.conf:system/etc/thermal-engine-perry.conf
+    $(LOCAL_PATH)/configs/thermal-engine-montana.conf:system/etc/thermal-engine-montana.conf
