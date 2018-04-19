@@ -19,7 +19,7 @@
 set -e
 
 # Required!
-export DEVICE=perry
+export DEVICE=montana
 export DEVICE_PLATFORM=msm8937-common
 export VENDOR=motorola
 export DEVICE_BRINGUP_YEAR=2017
