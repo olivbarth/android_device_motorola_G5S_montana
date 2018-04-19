@@ -1,4 +1,4 @@
-# system.prop for perry
+# system.prop for montana
 
 # Display
-ro.sf.lcd_density=320
+ro.sf.lcd_density=390
