@@ -15,10 +15,10 @@
 #
 
 # Inherit from perry device
-$(call inherit-product, device/motorola/perry/device.mk)
+$(call inherit-product, device/motorola/montana/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := perry
-PRODUCT_NAME := full_perry
+PRODUCT_DEVICE := montana
+PRODUCT_NAME := full_montana
 
-$(call inherit-product-if-exists, vendor/motorola/perry/perry-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/montana/montana-vendor.mk)
