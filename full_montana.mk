@@ -20,5 +20,7 @@ $(call inherit-product, device/motorola/montana/device.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := montana
 PRODUCT_NAME := full_montana
+PRODUCT_MODEL := Moto G5s
+PRODUCT_MANUFACTURER := motorola
 
 $(call inherit-product-if-exists, vendor/motorola/montana/montana-vendor.mk)
