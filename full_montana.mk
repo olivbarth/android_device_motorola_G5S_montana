@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-# Inherit from perry device
+# Inherit from montana device
 $(call inherit-product, device/motorola/montana/device.mk)
 
 # Device identifier. This must come after all inclusions
